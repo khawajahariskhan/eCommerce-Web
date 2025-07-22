@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <button class="btn btn-sm btn-outline-dark increase-btn">+</button>
           </div>
           <p class="item-total">Total: $${itemTotal.toFixed(2)}</p>
-          <button class="btn btn-dark btn-sm w-25 remove-item" data-index="${index}">Remove</button>
+          <button class="btn btn-dark btn-sm remove-item" data-index="${index}">Remove</button>
         </div>
       `;
     });
