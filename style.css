@@ -3,8 +3,9 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: url("./assets/pexels-jplenio-1103970 (1).jpg") no-repeat center
+  background: url("./assets/abstract-geometric-wireframe-background_52683-59421.avif") no-repeat center
     center fixed;
+
   background-size: cover; 
   background-attachment: fixed; 
 }
