@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Unbounded:wght@200..900&display=swap");
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("./assets/pexels-jplenio-1103970 (1).jpg") no-repeat center
+    center fixed;
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.head {
+  font-weight: bolder;
+}
+.rotating-img {
+  width: 35em; /* Adjust size as needed */
+  height: auto;
+  animation: rotate3D 5s linear infinite;
+  transform-style: preserve-3d;
+}
+
+@keyframes rotate3D {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.image-container {
+  perspective: 1000px;
+}
+.footer{
+    background-color: rgba(50, 75, 96, 0.5);
+}
+.card{
+  transition: all ease 0.5s;
+}
+.card:hover{
+  box-shadow: 5px 5px 10px black;
+  transform: scale(1);
+}
+#viewCart{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10%;
+  z-index: 1000;
+}
